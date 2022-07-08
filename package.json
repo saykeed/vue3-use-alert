@@ -1,7 +1,7 @@
 {
   "name": "vue3-use-alert",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/vue3-use-alert.umd.js",
   "module": "./dist/vue3-use-alert.es.js",
   "exports": {
