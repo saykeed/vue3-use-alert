@@ -1,6 +1,5 @@
 import AlertBox from './components/AlertBox.vue'
 import { ref } from 'vue'
-// import { useAlert } from './AlertControl'
 
 
 export default{
@@ -27,7 +26,6 @@ export const useAlert = () => {
         passedObj.animation ? alertSetting.animation.value = passedObj.animation : alertSetting.animation.value = 'slideY'
         passedObj.backgroundColor ? alertSetting.backgroundColor.value = passedObj.backgroundColor : alertSetting.backgroundColor.value = 'rgb(108, 165, 208)'
         passedObj.textColor ? alertSetting.textColor.value = passedObj.textColor : alertSetting.textColor.value = 'green'
-        // passedObj.autoClose ? alertSetting.autoClose.value = passedObj.autoClose : alertSetting.autoClose.value = 3000
         alertSetting.active.value = true
 
         // auto close
