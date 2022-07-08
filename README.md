@@ -1,4 +1,4 @@
-# Vue.js notifications
+# vue3-use-alert
 
 
 ## Demo
@@ -13,7 +13,7 @@
 npm i vue3-use-alert
 ```
 
-Add dependencies to your `main.js`:
+Setup in your `main.js`:
 
 ```javascript
 import Alert from 'vue3-use-alert'
@@ -28,12 +28,13 @@ createApp(App).use(Alert).mount('#app')
 ```
 
 Add the global component to your `App.vue`:
-<!-- Place the component right above the closing template tag in app.vue(recommended) -->
+
 ```vue
 <vue3-alert-box/>
+<!-- Place the component right above the closing template tag in app.vue(recommended) -->
 ```
 
-Trigger vue3-alert from your `.vue` files:
+Trigger vue3-alert from any of your `.vue` files:
 
 ```javascript
 // import useAlert
